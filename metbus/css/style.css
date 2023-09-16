@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OSI/OpenSans-Italic.woff') format('woff2'),
+        url('../fonts/OSI/OpenSans-Italic.woff2') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open SansB';
+    src: url('../fonts/OSB/OpenSans-Bold.woff') format('woff2'),
+        url('../fonts/OSB/OpenSans-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f26a2e;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo {
+    padding: 25px;
+}
+
+.header_right {
+    padding-top: 15px;
+}
+
+.header_right {
+    float: right;
+}
+
+.fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header_right span {
+    color: #fff;
+}
+
+.header_right i {
+    color: #fff;
+}
+
+.header_right span {
+    font-family: 'Open Sans';
+    color: #fff;
+}
+
+.header_right span {
+    padding-right: 25px;
+}
+
+.header_right span:last-child {
+    padding-right: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 19px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+
+}
+
+nav ul li a:hover {
+    color: #f16232;
+}
+
+.Bild img {
+    width: 100%;
+}
+
+.Bild {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 33%;
+    left: 32%;
+
+}
+
+.parent {
+
+    padding: 50px 0;
+}
+
+.parent::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.two {
+    font-size: 20px;
+}
+
+.three {
+    font-size: 15px;
+}
+
+.one {
+    font-family: 'Open SansB';
+    padding: 10px opx;
+}
+
+.two {
+    padding: 5px 0px;
+}
+
+.three {
+    padding: 10px 0px;
+}
+
+span {
+    color: #f26a2e;
+    font-family: 'Open SansB';
+}
+
+.vide-info h1 {
+    font-size: 60px;
+}
+
+
+.left-section {
+    float: left;
+    width: 60%;
+}
+
+.right-section {
+    float: right;
+    width: 35%;
+}
+
+iframe {
+    width: 100%;
+    padding: 5px 0px;
+}
+
+h1 {
+    color: #f05a32;
+}
+
+.right-section .box-1 {
+    text-align: left;
+    border: 1px solid #f26a2e;
+    background-color: #f16232;
+    width: 70%;
+    padding: 6px;
+
+}
+
+.right-section .box-1 h1 {
+    color: #fff;
+    padding: 0px 0;
+}
+
+.right-section .box-1 ul li {
+    padding: 10px 0 0;
+    list-style-type: none;
+    color: #fff;
+}
+
+.right-section .box-2 {
+    text-align: center;
+    border: 1px solid #f26a2e;
+    width: 70%;
+    padding: 17px;
+}
+
+.right-section .box-2 h1 {
+    color: #f26a2e;
+    padding: 0px 0;
+}
+
+.right-section .box-3 {
+    text-align: center;
+    border: solid #f26a2e;
+    width: 70%;
+    padding: 23px 0;
+
+}
+
+.right-section .box-3 h1 {
+    color: #f26a2e;
+    padding: 5px 0;
+
+
+}
+
+
+
+
+footer {
+    background-color: #ececec;
+    width: 100%;
+}
+
+.reisen h2 {
+    color: #f26b2e;
+    font-family: 'Open SansB';
+    padding: 40px 0px 25px 0px;
+}
+
+.last1 {
+    color: #fff;
+    background-color: #0385b8;
+    border-radius: 4px;
+    margin: 0px 150px 0px 0px;
+    padding: 10px 10px;
+}
+
+.service h2 {
+    color: #f26b2e;
+    font-family: 'Open SansB';
+    padding: 40px 0px 25px 0px;
+}
+
+.last2 {
+    color: #fff;
+    background-color: #0385b8;
+    border-radius: 4px;
+    margin: 0px 144px 0px 0px;
+    padding: 10px 10px;
+}
+
+.fragen h2 {
+    color: #f26b2e;
+    font-family: 'Open SansB';
+    padding: 40px 0px 25px 0px;
+}
+
+.last3 {
+    color: #fff;
+    background-color: #0385b8;
+    border-radius: 4px;
+    margin: 0px 137px 0px 0px;
+    padding: 9px 9px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reisen {
+    margin: 45px 60px 20px 0px;
+}
+
+.service {
+    margin: 45px 60px 20px 0px;
+}
+
+.fragen {
+    margin: 45px 60px 20px 0px;
+}
+
+.reisen p {
+    padding-bottom: 25px;
+}
+
+.service p {
+    padding-bottom: 25px;
+}
+
+.fragen p {
+    padding-bottom: 25px;
+}
+
+.footer-section {
+    background-color: #383838;
+}
+
+.copy {
+    display: -webkit-inline-box;
+}
+
+.met {
+    margin-top: 40px;
+    padding: 0px 0px 25px 0px;
+    font-family: 'Open SansB';
+    color: #9a9a9a;
+}
+
+.faq {
+    margin-left: 440px;
+    padding: 40px 0px 25px 0px;
+    font-family: 'Open SansB';
+    color: #9a9a9a;
+}
